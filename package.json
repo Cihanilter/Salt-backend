@@ -1,0 +1,17 @@
+{
+  "name": "salt-backend",
+  "version": "1.0.0",
+  "description": "Salt Recipe API - Backend server for recipe processing and social media import",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2"
+  }
+}
