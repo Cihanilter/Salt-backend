@@ -29,7 +29,7 @@ async function extractVideoMetadata(url) {
     try {
         // Use yt-dlp to get video metadata in JSON format
         const { stdout } = await execAsync(
-            `yt-dlp --dump-json --no-download "${url}"`,
+            `yt-dlp --dump-json --no-download --force-ipv4 --no-warnings "${url}"`,
             { timeout: CONFIG.TIMEOUT_MS }
         );
 
