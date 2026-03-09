@@ -12,7 +12,7 @@ const execAsync = promisify(exec);
 const CONFIG = {
     TIMEOUT_MS: 60000,  // 60 second timeout
     MAX_RETRIES: 2,
-    AI_MODEL: 'tngtech/deepseek-r1t-chimera:free'
+    AI_MODEL: 'google/gemini-2.0-flash-001'
 };
 
 // ============================================================
